@@ -1008,3 +1008,122 @@ fieldset[disabled] .btn-primary.active {
   margin-left: -70px;
   position: absolute;
 }
+/* start: comp-modal.less */
+.modal-footer .btn {
+  margin-bottom: 0px;
+}
+.modal-dialog .bg-danger {
+  background-color: #f2dede !important;
+}
+button.close {
+  color: #8e8e8e !important;
+  opacity: 1;
+}
+button.close:hover {
+  color: #000 !important;
+  opacity: 1;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
+.modal-transparent {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.modal-transparent .center-block img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.modal-loader {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+/* start: comp-addresspicker.less */
+.addressPicker {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.addressPicker ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.addressPicker ul li {
+  list-style-type: none;
+}
+.addressPicker ul li a {
+  list-style-type: none;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #e6e6e6;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.addressPicker ul li a:hover {
+  background-color: #cccccc;
+}
+.addressPicker ul li a:focus {
+  border: 2px solid #ff9900;
+}
+/* start: comp-faqs.less */
+.faqContainer .panel-default > .panel-heading {
+  border-color: transparent;
+  border-radius: 3px;
+}
+.faqContainer .panel-default {
+  border-color: transparent;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: transparent;
+}
+.faqContainer .panel-heading a {
+  display: block;
+  width: 100%;
+}
+.faqContainer .panel-heading .glyphicon {
+  margin-right: -15px;
+  float: right;
+}
+.faqContainer .panel {
+  background-color: transparent;
+  border-radius: none;
+  box-shadow: none;
+}
+.faqContainer .panel-title a {
+  text-decoration: none;
+  padding: 0 15px 0 0;
+  display: block;
+  width: 100%;
+}
+.faqContainer .panel-body {
+  border-top-color: red;
+  padding: 5px 5px 0 15px;
+}
+.faqContainer .panel-group {
+  margin-bottom: 15px;
+}
+.panel-title a span {
+  top: 0;
+  vertical-align: top;
+  display: block;
+  position: relative;
+}
+/* start: comp-images.less */
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin-bottom: 15px;
+}
