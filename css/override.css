@@ -211,6 +211,9 @@ footer p {
 footer p.copyright {
   text-align: right;
 }
+footer p.copyright a {
+  color: #ffffff;
+}
 footer .img-responsive {
   max-width: 200px;
   padding-bottom: 10px;
